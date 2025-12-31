@@ -12,3 +12,18 @@ My first project as part of my daily github contributions
 8. Members should be able to reserve books that are not currently available.
 9. The system should be able to send notifications whenever the reserved books become available, as well as when the book is not returned within the due date.
 10. Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
+
+
+#Class Segragation
+1. Library: The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other libraries and ‘Address’ to describe its location.
+2. Book: The basic building block of the system. Every book will have ISBN, Title, Subject, Publishers, etc.
+3. BookItem: Any book can have multiple copies, each copy will be considered a book item in our system. Each book item will have a unique barcode.
+4. Account: We will have two types of accounts in the system, one will be a general member, and the other will be a librarian.
+5. LibraryCard: Each library user will be issued a library card, which will be used to identify users while issuing or returning books.
+6. BookReservation: Responsible for managing reservations against book items.
+7. BookLending: Manage the checking-out of book items.
+8. Catalog: Catalogs contain list of books sorted on certain criteria. Our system will support searching through four catalogs: Title, Author, Subject, and Publish-date.
+9. Fine: This class will be responsible for calculating and collecting fines from library members.
+10. Author: This class will encapsulate a book author.
+11. Rack: Books will be placed on racks. Each rack will be identified by a rack number and will have a location identifier to describe the physical location of the rack in the library.
+12. Notification: This class will take care of sending notifications to library members.
