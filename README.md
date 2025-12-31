@@ -1,6 +1,7 @@
 # Library-Management-System
 My first project as part of my daily github contributions
-#System Requirements
+
+# System Requirements
 
 1. Any library member should be able to search books by their title, author, subject category as well by the publication date.
 2. Each book will have a unique identification number and other details including a rack number which will help to physically locate the book.
@@ -14,7 +15,7 @@ My first project as part of my daily github contributions
 10. Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
 
 
-#Class Segragation
+# Class Segragation
 1. Library: The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other libraries and ‘Address’ to describe its location.
 2. Book: The basic building block of the system. Every book will have ISBN, Title, Subject, Publishers, etc.
 3. BookItem: Any book can have multiple copies, each copy will be considered a book item in our system. Each book item will have a unique barcode.
