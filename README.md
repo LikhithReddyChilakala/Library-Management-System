@@ -28,3 +28,11 @@ My first project as part of my daily github contributions
 10. Author: This class will encapsulate a book author.
 11. Rack: Books will be placed on racks. Each rack will be identified by a rack number and will have a location identifier to describe the physical location of the rack in the library.
 12. Notification: This class will take care of sending notifications to library members.
+
+# Activities allowed 
+1. Check-out a book
+2. Return a book
+3. Renew a book
+
+
+
